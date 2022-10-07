@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.robusta.photoweather.ui.activity.MainActivity">
+    <item
+        android:id="@+id/capture"
+        android:contentDescription="@string/capture"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/capture"
+        />
+
+    <item
+        android:id="@+id/history"
+        android:contentDescription="@string/history"
+        android:icon="@drawable/history"
+        android:title="@string/history"
+        />
+</menu>
